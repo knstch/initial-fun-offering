@@ -1,0 +1,16 @@
+.trendingCampaignsTitleGroup {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.trendingCampaignsTitleGroup img {
+    align-self: center;
+    transform: translateY(6px);
+}
+
+.trendingCampaignsTitle {
+    color: #FFF;
+}

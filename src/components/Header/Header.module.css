@@ -1,0 +1,68 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 130px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #780FB4;
+    color: #fff;
+    position: relative;
+}
+
+.headerButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 25px;
+    gap: 10px;
+    border-radius: 15px;
+    border: none;
+}
+
+.buttonGroup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.phantomWalletButton {
+    background-color: #9886E5;
+    color: #fff;
+    transition: box-shadow 0.3s ease;
+}
+
+.phantomWalletButton:hover {
+    box-shadow: 3px 3px 0 0 #FFF;
+}
+
+.googleButton {
+    background-color: #FFF;
+    color: #464040;
+    transition: box-shadow 0.3s ease;
+}
+
+.googleButton:hover {
+    box-shadow: 4px 4px 0 0 #2C2E44;
+}
+
+.menuItemsGroup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.menuItem {
+    cursor: pointer;
+}
+
+.menuItem:hover {
+    font-weight: 600;
+}

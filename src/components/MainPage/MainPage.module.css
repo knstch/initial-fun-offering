@@ -1,0 +1,34 @@
+.welcomeBlock {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    color: #FFF;
+    margin-bottom: 120px;
+}
+
+.welcomeBlockContent {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    align-self: stretch;
+}
+
+.buttonGroup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-direction: row;
+}
+
+.welcomeImage {
+    transition: box-shadow 0.3s ease;
+    border-radius: 30px;
+}
+
+.welcomeImage:hover {
+    box-shadow: 3px 3px 0 0 #FFF;
+}

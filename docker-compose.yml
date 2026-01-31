@@ -1,0 +1,16 @@
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        REACT_APP_USERS_HOST: ${REACT_APP_USERS_HOST:-}
+    ports:
+      - "${FRONTEND_PORT:-3000}:80"
+    networks:
+      - ido-net
+
+networks:
+  ido-net:
+    external: true
+    name: ido-net

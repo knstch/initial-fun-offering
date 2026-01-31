@@ -14,11 +14,16 @@
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
     "module": "esnext",
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "baseUrl": ".",
+    "paths": {
+      "users-ido-api/public/generated/*": ["node_modules/users-ido-api/public/generated/*"],
+      "@phantom/react-sdk": ["node_modules/@phantom/react-sdk/dist/index.d.ts"]
+    }
   },
   "include": [
     "src"

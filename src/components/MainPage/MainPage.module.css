@@ -6,6 +6,7 @@
     gap: 30px;
     color: #FFF;
     margin-bottom: 120px;
+    width: 80%;
 }
 
 .welcomeBlockContent {
@@ -31,4 +32,11 @@
 
 .welcomeImage:hover {
     box-shadow: 3px 3px 0 0 #FFF;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }

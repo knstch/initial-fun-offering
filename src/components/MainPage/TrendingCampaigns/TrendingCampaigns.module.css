@@ -14,3 +14,7 @@
 .trendingCampaignsTitle {
     color: #FFF;
 }
+
+.trendingCampaignsContainer {
+    align-self: flex-start;
+}

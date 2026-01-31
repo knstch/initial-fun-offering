@@ -17,13 +17,13 @@
     "@types/react-dom": "^19.2.3",
     "axios": "^1.13.3",
     "campaigns-ido-api": "git+https://github.com/knstch/campaigns-ido-api.git#v0.1.1",
-    "wallets-ido-api": "git+https://github.com/knstch/wallets-ido-api.git#v0.0.4",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
     "react-router-dom": "^7.13.0",
     "react-scripts": "5.0.1",
     "typescript": "^4.9.5",
     "users-ido-api": "github:knstch/users-ido-api#v0.0.9",
+    "wallets-ido-api": "github:knstch/wallets-ido-api#v0.0.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

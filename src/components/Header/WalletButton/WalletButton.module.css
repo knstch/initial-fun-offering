@@ -1,0 +1,26 @@
+.headerButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 25px;
+    gap: 10px;
+    border-radius: 15px;
+    border: none;
+}
+
+.phantomWalletButton {
+    background-color: #9886E5;
+    color: #fff;
+    transition: box-shadow 0.3s ease;
+}
+
+.phantomWalletButton:hover {
+    box-shadow: 3px 3px 0 0 #FFF;
+}
+
+.phantomWalletButtonLinkedWalled {
+    cursor: pointer;
+    height: 60px;
+    border: 2px solid #FFF;
+    transition: box-shadow 0.3s ease;
+}

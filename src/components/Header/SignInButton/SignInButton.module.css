@@ -1,0 +1,19 @@
+.headerButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 25px;
+    gap: 10px;
+    border-radius: 15px;
+    border: none;
+}
+
+.googleButton {
+    background-color: #FFF;
+    color: #464040;
+    transition: box-shadow 0.3s ease;
+}
+
+.googleButton:hover {
+    box-shadow: 4px 4px 0 0 #2C2E44;
+}

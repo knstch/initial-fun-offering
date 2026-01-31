@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './components/App/App';
+import App from './components/App';
 import {BrowserRouter, Route, Routes} from "react-router-dom";
-import MainPage from "./components/MainPage/MainPage";
+import MainPage from "./components/MainPage";
 import { SnackbarProvider } from './contexts/Snackbar/SnackbarContext';
 import { AuthProvider } from './contexts/Auth/AuthProvider';
 import { AddressType, BrowserSDKConfig } from "@phantom/browser-sdk";

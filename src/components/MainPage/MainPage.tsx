@@ -1,7 +1,7 @@
 import MainPageImage from "../../assets/main_page_img.png"
 import styles from "./MainPage.module.css"
 import Button from "../UIElements/Button";
-import TrendingCampaigns from "./TrendingCampaigns/TrendingCampaigns";
+import TrendingCampaigns from "./TrendingCampaigns";
 
 const MainPage = () => {
     return (

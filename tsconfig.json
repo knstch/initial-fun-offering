@@ -14,7 +14,7 @@
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
     "module": "esnext",
-    "moduleResolution": "bundler",
+    "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
@@ -22,7 +22,9 @@
     "baseUrl": ".",
     "paths": {
       "users-ido-api/public/generated/*": ["node_modules/users-ido-api/public/generated/*"],
-      "@phantom/react-sdk": ["node_modules/@phantom/react-sdk/dist/index.d.ts"]
+      "wallets-ido-api/public/generated/*": ["node_modules/wallets-ido-api/public/generated/*"],
+      "@phantom/react-sdk": ["node_modules/@phantom/react-sdk/dist/index"],
+      "@phantom/browser-sdk": ["./node_modules/@phantom/browser-sdk/dist/index.d.ts"]
     }
   },
   "include": [

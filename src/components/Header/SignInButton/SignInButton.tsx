@@ -1,4 +1,4 @@
-import googleLogo from "../../../../assets/google_logo.svg";
+import googleLogo from "../../../assets/google_logo.svg";
 import styles from './SignInButton.module.css';
 import { useAuth } from "../../../contexts/Auth/AuthProvider";
 

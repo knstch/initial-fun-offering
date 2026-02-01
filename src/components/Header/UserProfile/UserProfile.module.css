@@ -1,12 +1,16 @@
 .profileWrapper {
     position: relative;
+    display: flex;
+    align-items: center;
 }
 
 .profilePicture {
     height: 60px;
     width: 60px;
+    display: block;
     cursor: pointer;
     border-radius: 50%;
+    border: 2px solid #FFF;
 }
 
 .dropDownMenu {

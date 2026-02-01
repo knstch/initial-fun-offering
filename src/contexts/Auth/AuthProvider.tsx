@@ -27,6 +27,7 @@ interface AuthContextType {
     signIn: () => void;
     signOut: () => void;
     refreshTokens: () => void;
+    getAccessToken: () => string | null;
     user?: User;
 }
 
@@ -52,6 +53,10 @@ const useProvideAuth = () => {
 
     const [user, setUser] = useState<User>();
     const usersHost = process.env.REACT_APP_USERS_HOST;
+
+    const getAccessToken = useCallback(() => {
+        return getCookie("access_token");
+    }, []);
 
     const loadUser = useCallback(async () => {
         const accessToken = getCookie("access_token");
@@ -162,6 +167,7 @@ const useProvideAuth = () => {
         signIn,
         signOut,
         refreshTokens,
+        getAccessToken,
         user,
     }
 }
